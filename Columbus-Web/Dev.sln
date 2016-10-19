@@ -11,6 +11,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sage.CA.SBS.ERP.Sage300.VPF.Web", "..\Columbus-VPF\VPF\Sage.CA.SBS.ERP.Sage300.VPF.Web.csproj", "{FD03C389-F1C4-41BB-834B-B001B68090BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NND.CA.Web", "NND.CA.Web\NND.CA.Web.csproj", "{532030A0-8007-4689-8FCF-C6E3303F969E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD03C389-F1C4-41BB-834B-B001B68090BE} = {FD03C389-F1C4-41BB-834B-B001B68090BE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
