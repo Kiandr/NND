@@ -1,1 +1,0 @@
-NuGet.exe restore "..\Dev.sln"
