@@ -1,14 +1,13 @@
-
-
 :top
 echo %1
-
-MSBuild C:\git\sln\Columbus-Web\Dev.sln
+cd C:\git\sln\Columbus-Web\
+MSBuild Dev.sln
 
 taskkill /F /IM chrome.exe /T
-del /q /s /f "C:\Users\kdavoudirad\AppData\Local\Google\Chrome\User Data"
-rd /s /q "%ChromeDir%"
+del /q /s /f "C:\Users\kdavoudi\AppData\Local\Google\Chrome\User Data"
+
 start chrome http://localhost:8080 --incognito
+rd /s /q "%ChromeDir%"
 
 
 timeout /t %1 
