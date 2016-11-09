@@ -1,3 +1,2 @@
-rd /q /s  C:\git\sln\
-echo "Deleted"
-C:\git\sln.bat
+start if exist C:\git\sln\ rmdir /q /s  C:\git\sln\
+

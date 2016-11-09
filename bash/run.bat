@@ -1,0 +1,1 @@
+start C:\git\bash\ClearnChrome.bat 500
