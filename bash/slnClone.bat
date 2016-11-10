@@ -21,6 +21,7 @@ git clone https://60649e118fb8557eec0a7538077424493d7b062f@github.com/Kiandr/Col
 cd Columbus-DV
 git checkout Dev
 cd ..
+
 git clone https://60649e118fb8557eec0a7538077424493d7b062f@github.com/Kiandr/Columbus-UnitTest
 cd Columbus-UnitTest
 git checkout Dev
