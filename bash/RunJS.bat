@@ -1,1 +1,0 @@
-C:\git\sln\packages\Chutzpah.4.2.4\tools\chutzpah.console.exe  C:\git\sln\Columbus-UnitTest\NND.CA.Web\Scripts\NND.CA.Web.Common.Repository.UnitTest.js
