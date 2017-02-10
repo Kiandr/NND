@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CMS.Membership;
 
 namespace kenticoTestSln.Controllers
 {
@@ -10,6 +11,8 @@ namespace kenticoTestSln.Controllers
     {
         public ActionResult Index()
         {
+            RoleInfo newRole = new RoleInfo();
+
             return View();
         }
 

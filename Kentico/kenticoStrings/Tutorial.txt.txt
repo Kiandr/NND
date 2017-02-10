@@ -1,1 +1,3 @@
 https://docs.kentico.com/k9/developing-websites/developing-sites-using-asp-net-mvc/starting-with-mvc-development
+
+Data Source=NND-WRK-QAPC;Initial Catalog=Kentico;User ID=sa;Password=***********
