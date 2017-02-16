@@ -10,7 +10,11 @@ namespace TestZipCodeCoreFunction
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
-                        "~/Scripts/jquery-ui.min.js"
+                        "~/Scripts/jquery-ui.min.js",
+                        // Very unHealthy
+                        "~/Scripts/knockout-3.4.1.js",
+                         "~/Scripts/KDR/knockout-main.js"
+
 
 
                         ));
